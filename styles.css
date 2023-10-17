@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding-left: 250px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    padding: 16px;
+    height: 400px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-right: 100px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.header p{
+    width: 400px;
+    margin-top: 10px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px ;
+    background-color: #3882F6;
+    color: white;
+    margin-top: 10px;
+}
+
+#header-img{
+    width: 450px;
+    height: 250px;
+    padding-right: 250px;
+}
+
+.join{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 250px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:1280px){
+    .join{
+        padding: 0;
+    } 
+    
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    height: 400px;
+}
+
+.info img{
+    width: 250px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+    align-self: center;
+}
+
+@media screen and (max-width: 1116px){
+    #info-img{
+        width: 150px;
+        height: 110px;
+    }
+}
+
+.quote{
+    background-color: lightgrey;
+    height: 400px;
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+.quote footer{
+    font-weight: bold;
+    float: right;
+    margin-top: 15px;
+}
+
+.quote p{
+    width: 500px;
+}
+
+.call-action{
+    background-color: #3882F6;
+    margin: 100px;
+    padding:45px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-action .content{
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    
+}
+
+.call-action button{
+    border: 2px solid white;
+    width: 100px;
+    height: 35px;
+}
+
+.footer{
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
