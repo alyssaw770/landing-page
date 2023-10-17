@@ -76,6 +76,17 @@ button{
     height: 400px;
 }
 
+.info p{
+    text-align:center;
+}
+
+.info-header{
+    margin-top: 35px;
+    margin-bottom: -35px;
+    text-align: center;
+    font-size: xx-large;
+}
+
 .info img{
     width: 250px;
     height: 200px;
